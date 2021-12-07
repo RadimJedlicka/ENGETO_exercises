@@ -17,4 +17,4 @@ l_vysledek = l_pocet * l_gal
 print(kg_pocet, "kilogramu se rovna", kg_vysledek, "liber.")
 print(km_pocet, "kilometru se rovna", km_vysledek, "mil.")
 print(l_pocet, "litru se rovna", l_vysledek, "galonu.")
-print("Uz tu umim docela dost veci"
+print("Uz tu umim docela dost veci")
