@@ -18,10 +18,10 @@ i = 0
 while i < pocet_pokusu:
 
     # Zadani tipu
-    tip = input('Vlož svůj tip: ')
+    # tip = input('Vlož svůj tip: ')
 
     # Kontrola spravnosti slova - nastav podminku za if
-    if tip == slovo:
+    if (tip := input('Vlož svůj tip: ')) == slovo:
         break
     # Zvetseni pocitadla
     i = i + 1
