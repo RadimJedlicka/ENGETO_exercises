@@ -1,4 +1,4 @@
-# Cílem této úlohy je vložit slovníky slovnik_1, slovnik_2 a slovnik_3 do našeho hlavního slovníku databaze.
+# Cílem této úlohy je vložit slovníky slovnik_1, slovnik_2 _ slovnik_3 do našeho hlavního slovníku databaze.
 # komentar navic
 
 databaze = {

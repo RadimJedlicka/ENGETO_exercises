@@ -1,6 +1,6 @@
 # slovniky
 slovnik01 = {'jmeno': 'David', 'prijmeni': 'Novak', 'vek': 33}
-slovnik02 = {'pismena': ['a', 'b', 'c', 'd'], 'cisla': [1,2,3,4,5]}
+slovnik02 = {'pismena': ['_', 'b', 'c', 'd'], 'cisla': [1,2,3,4,5]}
 slovnik03 = {
     'zamestnanci': {
         'id01': 'Marek',
@@ -22,7 +22,7 @@ hodnoty = slovnik03.values()
 
 vyzva = slovnik03["zamestnanci"].values()
 
-print("Klice a hodnoty: ", klice_hodnoty)
+print("Klice _ hodnoty: ", klice_hodnoty)
 print("Klice: ", klice)
 print("Hodnoty: ", hodnoty)
 print("Vyzva: ", vyzva)

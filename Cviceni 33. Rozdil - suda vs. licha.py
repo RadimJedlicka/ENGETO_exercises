@@ -1,11 +1,11 @@
-# Napiš Python skript, který sečte odděleně všechna sudá a všechna lichá čísla ze seznamu. Na konci by měl program
+# Napiš Python skript, který sečte odděleně všechna sudá _ všechna lichá čísla ze seznamu. Na konci by měl program
 # vytisknout absolutní hodnotu rozdíu mezi těmito součty.
 #
 # Ukázka, jak by měl program fungovat:
 #
 # Máme seznam čísel: [1, 2, 3, 4, 5, 6, 7, 8],
-# sečteme všechna sudá čísla a výsledek uložíme do proměnné suda = 2 + 4 + 6 + 8,
-# sečteme všechna lichá čísla a výsledek uložíme do proměnné licha = 1 + 3 + 5 + 7,
+# sečteme všechna sudá čísla _ výsledek uložíme do proměnné suda = 2 + 4 + 6 + 8,
+# sečteme všechna lichá čísla _ výsledek uložíme do proměnné licha = 1 + 3 + 5 + 7,
 # nakonec získáme rozdíl mezi těmito dvěma součty (proměnná vysledek),
 # měli bychom zajistit, že výsledek nebude záporné číslo (k tomu by ti mohly pomoci built-in funkce pro numerické typy,
 # zmiňované v první lekci).
@@ -36,11 +36,11 @@ print(f"Rozdil je: {vysledek}")
 
 
 # Čísla uložíme do proměnné cisla,
-# vytvoříme 2 proměnné (suda a licha),
+# vytvoříme 2 proměnné (suda _ licha),
 # v proměnné cisla procházím jedno číslo za druhým,
 # pokud je číslo sudé, navýšíme proměnnou suda,
 # pokud je číslo liché, navýšíme proměnnou licha,
-# nakonec vypočítáme rozdíl mezi suda a licha, získáme jeho absolutní hodnotu pomocí funkce abs()
+# nakonec vypočítáme rozdíl mezi suda _ licha, získáme jeho absolutní hodnotu pomocí funkce abs()
 
 
 

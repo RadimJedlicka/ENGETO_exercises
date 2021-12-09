@@ -1,10 +1,10 @@
-# Napiš program, který z listu slova vybere nejdelší slovo a vytiskne do terminálu
-# tuple s tímto nejdelším slovem a jeho délkou.
+# Napiš program, který z listu slova vybere nejdelší slovo _ vytiskne do terminálu
+# tuple s tímto nejdelším slovem _ jeho délkou.
 #
 # Použij prosím tento list:
 
 slova = [
-'Python', 'is', 'a', 'widely', 'used',
+'Python', 'is', '_', 'widely', 'used',
 'high-level', 'programming', 'language',
 'for', 'general-purpose', 'programming,',
 'created', 'by', 'Guido', 'van', 'Rossum',

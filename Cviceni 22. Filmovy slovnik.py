@@ -76,7 +76,7 @@ else:
 print(oddelovac, "VITEJTE V NASEM FILMOVEM SLOVNIKU!".center(66), sep="\n")
 print(oddelovac, f"Sluzby: | {' | ' .join(sluzby)}".center(66), oddelovac, sep="\n")
 
-# Umožnit výběr ze služeb, výpis všech filmů a ukončení
+# Umožnit výběr ze služeb, výpis všech filmů _ ukončení
 vyber = input("Vyberte sluzbu z nabidky vyse: ")
 if vyber in sluzby and vyber == 'dostupne filmy':
     print("Dostupne filmy: ", ', ' .join(filmy.keys()), oddelovac, sep="\n")
@@ -119,7 +119,7 @@ elif vyber in sluzby and vyber == sluzby[3]:
 
     print(kopie_hodnoceni)
 
-    # # jmena a filmy zbyvajicich uzivatelu
+    # # jmena _ filmy zbyvajicich uzivatelu
     jmeno_prvni_uz, filmy_prvni_uz = detaily_prvni_uzivatel
     jmeno_druhy_uz, filmy_druhy_uz = detaily_druhy_uzivatel
     print(jmeno_prvni_uz)
@@ -139,10 +139,10 @@ elif vyber in sluzby and vyber == sluzby[3]:
         nejvice_spolecnych = hodnoceni_uzivatelu[jmeno_druhy_uz]
     elif len(spolecny_s_prvnim) == len(spolecny_s_druhym):
         nejvice_spolecnych = hodnoceni_uzivatelu[jmeno_prvni_uz].union(hodnoceni_uzivatelu[jmeno_druhy_uz])
-        winner = jmeno_prvni_uz + " a " + jmeno_druhy_uz
-    print(f"Nejvice spolecnych filmu mas s {winner} a ten uz videl: {nejvice_spolecnych}")
+        winner = jmeno_prvni_uz + " _ " + jmeno_druhy_uz
+    print(f"Nejvice spolecnych filmu mas s {winner} _ ten uz videl: {nejvice_spolecnych}")
 
-    # navrhovane filmy (co videli ostatni a ja jeste ne)
+    # navrhovane filmy (co videli ostatni _ ja jeste ne)
     navrhy = nejvice_spolecnych.difference(aktivni_uzivatel)
     print(f"Uzivatel {winner} ti navrhuje, aby ses podival na {navrhy} ;-)")
 

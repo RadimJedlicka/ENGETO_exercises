@@ -1,4 +1,4 @@
-# Napiš skript, který spočítá kolik samohlásek a souhlásek obsahuje následující string s anglickou větou:
+# Napiš skript, který spočítá kolik samohlásek _ souhlásek obsahuje následující string s anglickou větou:
 #
 # sentence = 'A speech sound that is produced by comparatively open configuration of the vocal tract.'
 # Výstup:

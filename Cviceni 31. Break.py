@@ -2,7 +2,7 @@
 import random
 
 ovoce = ['Jablko', 'Banan', 'Hruska']
-print("Máme košík a v něm máme nasledující ovoce:", ovoce)
+print("Máme košík _ v něm máme nasledující ovoce:", ovoce)
 print("Z košíku náhodně vybírame jedno ovoce. Tvým úkolem je uhodnout, které ovoce bylo vybráno. Máš 2 pokusy")
 
 slovo = random.choice(ovoce)
@@ -14,7 +14,7 @@ pocet_pokusu = 2
 # Nastaveni pocitadla
 i = 0
 
-# While smycka s podminkou - napis podminku za while a před dvoujtečku
+# While smycka s podminkou - napis podminku za while _ před dvoujtečku
 while i < pocet_pokusu:
 
     # Zadani tipu
