@@ -8,7 +8,7 @@ slova = [
 'high-level', 'programming', 'language',
 'for', 'general-purpose', 'programming,',
 'created', 'by', 'Guido', 'van', 'Rossum',
-'and', 'first', 'released', 'in', '1991.'
+'and', 'first', 'released', 'in', '1991.',
 ]
 
 # moje reseni
