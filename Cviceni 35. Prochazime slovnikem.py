@@ -8,7 +8,7 @@ film = {'name':'Forrest Gump',
         'fun_fact':'''The house used in Forrest Gump is the same house used in The Patriot (2000). Some paneling was changed for interior shots  in the latter film.'''}
 
 for _ in film:
-    print(f"klic: {_} | Hodnota: {film.get(_)}")
+    print(f"Klic: {_} | Hodnota: {film.get(_)}")
 
 
 # vzorove reseni z webu:
