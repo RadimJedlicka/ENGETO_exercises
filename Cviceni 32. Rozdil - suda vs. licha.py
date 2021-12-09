@@ -42,3 +42,6 @@ print(f"Rozdil je: {vysledek}")
 # pokud je číslo liché, navýšíme proměnnou licha,
 # nakonec vypočítáme rozdíl mezi suda a licha, získáme jeho absolutní hodnotu pomocí funkce abs()
 
+
+
+
