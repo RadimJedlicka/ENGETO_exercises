@@ -134,10 +134,13 @@ help matter this away order females apartments depending round were basket.
 # print(cista_slova)
 
 # vycistit text
-cista_slova = []
-for slova in text.split():
-    cista_slova.append(slova.strip(".:;,").lower())
-print(cista_slova)
+cista_slova = [slova.strip('.:;,').lower() for slova in text.split()]       # comprehensions
+# print(cista_slova)
+
+# cista_slova = []
+# for slova in text.split():
+#     cista_slova.append(slova.strip(".:;,").lower())
+# print(cista_slova)
 
 # spocitat vyskyt kazdeho slova
 pocet_slov = {}
