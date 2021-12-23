@@ -1,8 +1,7 @@
 import os
 from slova import hadana_slova
 from random import choice, seed
-from grafika import obesenec
-from grafika import title
+from grafika import obesenec, title
 
 lives = 7
 running = True
@@ -17,15 +16,17 @@ while running and lives > 0:
     print(title)
     print('Your task is to guess a letter of our secret word'.center(54))
     print('(or the whole word, if you are brave)'.center(54))
-    print("Searched word: ", ''.join(key).center(54))
-    print(obesenec[7-lives])
-    print(f"{lives} lives remaining".center(54))
+    print('')
+    print(' '*10, "Searched word: ", ''.join(key))
     print(message.center(54))
-    guess = input('Guess letter/word: '.center(54))
+    print('Already used: ', control)
+    print(obesenec[7-lives].center(54))
+    print(f"{lives} lives remaining".center(54))
+    guess = input('           Guess letter/word: ')
     if guess == word:
         running = False
     elif guess in control:
-        message = 'You tried this one already ;-)'
+        message = 'You have tried this one already ;-)'
     elif len(guess) == 1 and guess in word:
         control.append(guess)
         message = 'You have found a letter'
@@ -47,7 +48,8 @@ else:
     if running == False:
         os.system("cls")
         print(title)
-        print('BINGO, YOU ARE THE WINNER!')
+        print('BINGO, YOU ARE THE WINNER!'.center(54))
+        print('searched word was'.upper().center(54), f"'{word}'".center(54), sep="\n")
     else:
         os.system("cls")
         print(title)
