@@ -58,4 +58,3 @@ for item in kosik:
 
 print(oddelovac)
 print(f'Celkova cena za nakup: {celkem},-Kc'.rjust(len(oddelovac)))
-
