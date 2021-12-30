@@ -10,9 +10,16 @@
 # ['d', 'l', 'r', 'o', 'W', ' ', 'o', 'l', 'l', 'e', 'H']
 # ===============================================================================
 
-# ['New', 'Years', 'Eve']
+# můžeme použít slicing, abychom obrátili pořadí dané sekvence a potom ji převedeme na list
 def my_reversed(x):
     return list(x[::-1])
 
+# nebo můžeme použít for loop, kde každá iterace vloží aktuální prvek na začátek nově vytvořené sekvence
+def my_reversed2(x):
+    lst = []
+    for _ in x:
+        lst.insert(0, _)
+    return lst
 
-print(my_reversed('New'))
+
+print(my_reversed2(range(10)))
