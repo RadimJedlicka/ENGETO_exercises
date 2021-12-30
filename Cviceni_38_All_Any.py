@@ -26,8 +26,9 @@
 # >>> my_any(['',[],(),0])
 # False
 
-a = [1, 45, 87, 21, 23]
+a = [0, 45, 87, 21, 23]
 b = [0, 1]
+
 
 def my_all(x):
     for _ in x:
@@ -36,7 +37,6 @@ def my_all(x):
     return True
 
 
-my_all(a)
 print(my_all(a))
 
 
@@ -47,5 +47,9 @@ def my_any(x):
     return False
 
 
-my_any(b)
 print(my_any(b))
+
+# Použijeme podobný princip jako při hledání specifické hodnoty. Pokud najdeme danou hodnotu v sekvenci, můžeme vrátit výstup.
+# U naší funkce all() musíme najít aspoň jeden objekt, který má boolean hodnotu False. Použijeme tedy test if not item:, který je totožný s if not bool(item):.
+# U funkce any() potřebujeme aspoň jeden objekt, který má boolean hodnotu True. Použijeme tedy test if item:.
+# Pokud nebudou výše zmíněné testy nikdy vyhodnoceny jako True, potom by měla funkce vrátit výstup až po for loop.
