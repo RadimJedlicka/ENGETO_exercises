@@ -1,4 +1,5 @@
-# Vytvoř program, který vytiskne, kolikrát se každý objekt nachází v daném listu, tuplu, nebo stringu (u stringu chceme počet jednotlivých znaků).
+# Vytvoř program, který vytiskne, kolikrát se každý objekt nachází v daném listu, tuplu, nebo stringu
+# (u stringu chceme počet jednotlivých znaků).
 #
 # Výstupem programu by měl být slovník, který se skládá z následující dvojice klíč - hodnota:
 #

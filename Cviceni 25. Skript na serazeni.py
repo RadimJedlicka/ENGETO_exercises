@@ -18,7 +18,7 @@ for from_original in names:
     # Zační vnitřní for loop, kterým budeš procházet seznam `sorted_names` _ pomocí podmínkového výrazu, `break` _ `else` vlož jméno z `names` buď na pozici, nebo za pozici daného jméno v listu `sorted_names`
     for index0,from_sorted in enumerate(sorted_names):
         if from_original < from_sorted:
-            sorted_names.insert(index0,from_original)
+            sorted_names.insert(index0, from_original)
             break
 
     else:
