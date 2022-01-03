@@ -45,7 +45,7 @@ while running and lives > 0:
         if lives == 0:
             running = False
 else:
-    if running == False:
+    if running is False:
         os.system("cls")
         print(title)
         print('BINGO, YOU ARE THE WINNER!'.center(54))
