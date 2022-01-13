@@ -5,6 +5,7 @@ status = '+', '-', '*', '/', 'prum', 'pow', 'quit'
 
 # TODO: prohlidnout video z utery a dodelat
 
+
 def main():
     while True:
         zobraz_nabidku(status)
@@ -22,6 +23,7 @@ def main():
             umocni_hodnotu()
         else:
             print('Neni v nabidce')
+
 
 def zobraz_nabidku(*args):
     vypis = ' | '.join(*args)
@@ -63,8 +65,4 @@ def prumer():
     print(f'Vysledek: {sum(zadane_hodnoty) / len(zadane_hodnoty)}')
 
 
-
-
-
 main()
-
