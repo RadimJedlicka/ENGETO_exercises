@@ -44,12 +44,14 @@ def hra():
         os.system("cls")
         konec_hry(zivoty, slovo)
 
+
 def zobraz_stav_hry(tajenka, zivoty, oznameni):
     """Vycisti konzoli a vykresli obesence s tajenkou."""
     os.system("cls")
     print(f"Tajenka: {''.join(tajenka)}")
     print(obesenec[7 - zivoty])
     print(oznameni)
+
 
 def je_pismeno_ve_slove(hadani, slovo):
     """Vraci index pismena, pokud je nalezeno ve slove."""

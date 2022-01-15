@@ -14,7 +14,7 @@ def main():
 
     while running and lives > 0:
         uvod(key, title, message, lives, control)
-        guess = input('           Guess letter/word: ')
+        guess = input('           Guess letter/word2: ')
         if guess == word:
             running = False
         elif guess in control:
@@ -41,7 +41,7 @@ def main():
             os.system("cls")
             print(title)
             print('BINGO, YOU ARE THE WINNER!'.center(54))
-            print('searched word was'.upper().center(54), f"'{word}'".center(54), sep="\n")
+            print('searched word2 was'.upper().center(54), f"'{word}'".center(54), sep="\n")
         else:
             os.system("cls")
             print(title)
@@ -52,9 +52,9 @@ def main():
 def uvod(key, title, message, lives, control):
     os.system("cls")
     print(title)
-    print('Your task is to guess a letter of our secret word\n(or the whole word, if you are brave)'.center(54))
+    print('Your task is to guess a letter of our secret word2\n(or the whole word2, if you are brave)'.center(54))
     print('')
-    print(' ' * 10, "Searched word: ", ''.join(key))
+    print(' ' * 10, "Searched word2: ", ''.join(key))
     print(message.center(54))
     print('Already used: ', control)
     print(obesenec[7 - lives].center(54))
