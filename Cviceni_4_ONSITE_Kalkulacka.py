@@ -3,10 +3,9 @@ import os
 
 status = '+', '-', '*', '/', 'prum', 'pow', 'quit'
 
-# TODO: prohlidnout video z utery a dodelat
-
 
 def main():
+
     while True:
         zobraz_nabidku(status)
         proces = input('Vyber: ')
@@ -25,10 +24,36 @@ def main():
             print('Neni v nabidce')
 
 
-def zobraz_nabidku(*args):
+def zobraz_nabidku(*args) -> None:
+    """
+    Popisek:
+    Metodou 'join' spoji hodnoty v parametrech 'args', na zacatku a na konci bude '|'
+    Potom doplni oddelovac pred a za parametry
+
+    Ukazka:
+    args = ('a', 'b', 'c')
+
+    Vysledek:
+    -------------
+    | a | b | c |
+    -------------
+    """
     vypis = ' | '.join(*args)
-    oddelovac = '-' * len(vypis)
-    print(oddelovac, vypis, oddelovac, sep='\n')
+    oddelovac = '-' * len(f"| {vypis} |")
+    print(oddelovac, f"| {vypis} |", oddelovac, sep='\n')
+
+
+def ciselny_vstup(popisek='Hodnota: ') -> int:
+    while True:
+        vstup = input(popisek)
+        if je_vstup_ciselny:
+            return int(vstup)
+        else:
+            print('Neplatny vstup, zadej znovu')
+
+
+def je_vstup_ciselny(vstup) -> bool:
+    return (vstup[0] == '-' and vstup[1:].isdigit()) or vstup.isdigit()
 
 
 def zakladni_operace():
@@ -48,21 +73,22 @@ def zakladni_operace():
             break
 
 
-def umocni_hodnotu():
-    cislo = int(input('Vloz hodnotu: '))
-    exponent = int(input('Vloz exponent: '))
-    print(f'Vysledek: {cislo ** exponent}')
+def umocni_hodnotu() -> None:
+    cislo = ciselny_vstup()
+    exponent = ciselny_vstup('Mocnina: ')
+    print(f'Vysledek: {cislo} ** {exponent} = {cislo ** exponent}')  # printout exponent jde, viz google
+    # return cislo ** exponent -> int
 
 
-def prumer():
-    # TODO posouzeni vstupu
-    text = 'Zadavej postupne cisla (\'quit\' pro konec): '
+def prumer() -> None:
+    text = 'Zadavej postupne cisla (nakonec zadej \'=\'): '
     zadane_hodnoty = list()
 
-    while (vstup := input(text)) != 'quit':
-        if vstup.isnumeric():
+    while (vstup := input(text)) != '=':
+        if je_vstup_ciselny(vstup):
             zadane_hodnoty.append(int(vstup))
-    print(f'Vysledek: {sum(zadane_hodnoty) / len(zadane_hodnoty)}')
+    print(f'Prumer zadanych hodnot {tuple(zadane_hodnoty)} \n'
+          f'se rovna: {sum(zadane_hodnoty) / len(zadane_hodnoty)}')
 
 
 main()
