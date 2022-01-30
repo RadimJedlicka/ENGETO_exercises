@@ -46,7 +46,7 @@ def zobraz_nabidku(*args) -> None:
 def ciselny_vstup(popisek='Hodnota: ') -> int:
     while True:
         vstup = input(popisek)
-        if je_vstup_ciselny:
+        if je_vstup_ciselny(vstup):
             return int(vstup)
         else:
             print('Neplatny vstup, zadej znovu')

@@ -7,7 +7,7 @@ zivoty = 7
 hra_bezi = True
 # slovo = "obesenec" # TODO: Náhodný výběr slov pomocí random.choice()
 # zafixuji nahodny vyber
-# seed(42)
+seed(42)
 slovo = choice(hadana_slova)
 tajenka = len(slovo) * ["_"]
 hadana_pismena = []
