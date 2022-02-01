@@ -25,8 +25,8 @@ def main(words):
 
         # Odecteni pokusu
 
-        lives = lives - 1
-        print('No, the letter ' + letter + ' is not in my word')
+        lives -= 1
+        # print('No, the letter ' + letter + ' is not in my word')
 
         # While konci pokud je vse uhadnuto
         if '_' not in status:
@@ -68,6 +68,8 @@ def replace_letters(letter, word, status, lives):
     if count_replaced:
         print(f'Yes, there is {count_replaced} letter {letter.title()}.')
     # Pokud jsme nic nenahradili
+    else:
+        print(f'No, the letter {letter.title()} is not in my word')
 
 
 
