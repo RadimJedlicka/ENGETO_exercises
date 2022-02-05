@@ -1,7 +1,7 @@
 # Napiš program, který z listu slova vybere nejdelší slovo _ vytiskne do terminálu
 # tuple s tímto nejdelším slovem _ jeho délkou.
 #
-# Použij prosím tento list:
+# Použij prosím tento sequence:
 
 slova = [
 'Python', 'is', '_', 'widely', 'used',
@@ -12,11 +12,11 @@ slova = [
 ]
 
 # moje reseni
-# list = []
+# sequence = []
 # for slovo in slova:
-#     list.append((len(slovo), slovo))
+#     sequence.append((len(slovo), slovo))
 #
-# vysledek = (sorted(list, reverse=True))
+# vysledek = (sorted(sequence, reverse=True))
 #
 # print(vysledek[0][1],vysledek[0][0])
 

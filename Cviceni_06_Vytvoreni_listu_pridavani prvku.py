@@ -1,8 +1,8 @@
 # Tvým úkolem je napsat kód, který:
 #
-# proměnné kandidati přiřadí prázdný list,
+# proměnné kandidati přiřadí prázdný sequence,
 # vytiskne obsah proměnné kandidati za větu 'Kandidáti na začátku: ',
-# do proměnné zamestnanci přiřadí list, který bude obsahovat stringy: 'František', 'Anna', 'Jakub', 'Klára',
+# do proměnné zamestnanci přiřadí sequence, který bude obsahovat stringy: 'František', 'Anna', 'Jakub', 'Klára',
 # vytiskne obsah zamestnanci za větu 'Zaměstnanci na začátku: ',
 # do prázdného listu kandidáti přidá jména 'Bruno' a 'Anežka',
 # vytiskne obsah listu kandidati za string 'Nová jména přidána do kandidati: ',

@@ -165,7 +165,7 @@ for slova in pocet_slov:
 # tady se mi nelibi to poradi (slova, pocet_slov[slova]) ale je to kvuli tomu sortingu dale.
 # kdyz budu chtit radit podle hodnoty na druhe pozici, tak pouziju funkci nize.
 
-# sort list with key
+# sort sequence with key
 def take_second(elem):
     return elem[1]
 

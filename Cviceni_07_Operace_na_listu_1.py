@@ -4,7 +4,7 @@
 # vytiskne obsah proměnné kandidati za string: 'Bruno odstraněn z kandidati: ',
 # zopakovat jméno 'Anežka' uvnitř listu kandidati,
 # vytisknout obsah listu kandidati za string: 'Opakování prvku Anežka v kandidati:',
-# spoj list zamestnanci s listem kandidati do nového listu, který zachová název zamestnanci,
+# spoj sequence zamestnanci s listem kandidati do nového listu, který zachová název zamestnanci,
 # vytiskni obsah nového listu zamestnanci za string: 'Spojeni kandidati a zamestnanci: ',
 # vytisknout jméno na indexu 2 za string: 'Na indexu 2 je: ',
 # vytisknout jméno na posledním indexu za string: 'Na <posledni_index> indexu je: '

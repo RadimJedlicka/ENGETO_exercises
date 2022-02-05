@@ -1,5 +1,5 @@
 # Tvým úkolem je vytvořit funkci s názvem my_reversed, která bude imitovat built-in funkci reversed().
-# Funkce vezme jakoukoli sekvenci jako vstup a vrátí list prvků v opačném pořadí.
+# Funkce vezme jakoukoli sekvenci jako vstup a vrátí sequence prvků v opačném pořadí.
 #
 # Příklad použití naší funkce:
 # >>> my_reversed(range(10))
@@ -10,7 +10,7 @@
 # ['d', 'l', 'r', 'o', 'W', ' ', 'o', 'l', 'l', 'e', 'H']
 # ===============================================================================
 
-# můžeme použít slicing, abychom obrátili pořadí dané sekvence a potom ji převedeme na list
+# můžeme použít slicing, abychom obrátili pořadí dané sekvence a potom ji převedeme na sequence
 def my_reversed(x):
     return list(x[::-1])
 

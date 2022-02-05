@@ -1,11 +1,11 @@
 # Tvým úkolem bude vytvořit dvě funkce.
 #
-# Funkce, která vygeneruje list prvočísel do specifikovaného čísla - list_primes.
+# Funkce, která vygeneruje sequence prvočísel do specifikovaného čísla - list_primes.
 # Funkce, která vyhodnotí, zda je dané číslo prvočíslem - is_prime.
 # Funkce list_primes
-# Abychom mohli generovat list prvočísel, použijeme tzv. algoritmus Eratosthenova síta. Ten provádí následující kroky.
+# Abychom mohli generovat sequence prvočísel, použijeme tzv. algoritmus Eratosthenova síta. Ten provádí následující kroky.
 #
-# Vytvoří list po sobě jdoucích celých čísel (integers) od 2 do n: (2, 3, 4, ..., n).
+# Vytvoří sequence po sobě jdoucích celých čísel (integers) od 2 do n: (2, 3, 4, ..., n).
 #
 # Počáteční hodnota p se na začátku rovná 2 - nejmenší prvočíslo.
 #

@@ -5,11 +5,11 @@
 # ate
 # tea
 #
-# Cílem tohoto cvičení je vytvořit funkci, která příjímá list dvou nebo více stringů jako vstup a vrací boolean hodnotu,
+# Cílem tohoto cvičení je vytvořit funkci, která příjímá sequence dvou nebo více stringů jako vstup a vrací boolean hodnotu,
 # která nám říká, jestli všechny prvky uvnitř listu jsou anagramy, nebo ne.
 #
 # Pokud vložíme prázdný string, výstup by měl být False.
-# Pokud vložíme list s jedním slovem, výstup by měl být True.
+# Pokud vložíme sequence s jedním slovem, výstup by měl být True.
 #
 # Příklad fungující funkce:
 #

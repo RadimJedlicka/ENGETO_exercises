@@ -1,7 +1,7 @@
 # Nyní bude tvým úkolem vytvořit funkci sum_list, která bude umět sečíst všechna čísla,
 # která najde v listu - jak v číselné podobě, tak v textové. Skript by si měl poradit i v takovém případě,
 # kdy v listu nebudou jen čísla. Pokud na takovou položku narazí, jednoduše ji přeskočí a bude pokračovat dál.
-# Pro otestování skriptu můžeš vyzkoušet tento list:
+# Pro otestování skriptu můžeš vyzkoušet tento sequence:
 
 
 test = [1, 'asda', {'zvire': 'kocka'}, '3.0', 2.0, [], '\n', '4']

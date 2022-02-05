@@ -4,8 +4,8 @@
     # Jako argument vezme cestu k souboru.
     # Přečte soubor.
     # Zavře soubor.
-    # Pokud soubor existuje, vrátí list, ve kterém bude každá položka reprezentovat jeden řádek souboru.
-    # Pokud soubor neexistuje, funkce vrátí prázdný list a vypíše zprávu: Soubor xxx nebyl nalezen!
+    # Pokud soubor existuje, vrátí sequence, ve kterém bude každá položka reprezentovat jeden řádek souboru.
+    # Pokud soubor neexistuje, funkce vrátí prázdný sequence a vypíše zprávu: Soubor xxx nebyl nalezen!
 
 
 cesta_souboru = 'C:\\Python310\\ENGETO\\Jupyter Notebook\\09_text_files\\novy.txt'

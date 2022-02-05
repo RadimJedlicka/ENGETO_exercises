@@ -7,7 +7,7 @@
 names = [1, 2, 11 , 3, 4, 15, 6, 77, 8]
 # print(names)
 
-# Vytvoř list, do kterého vložíš jeden prvek z list `names`. Zároveň ho z listu `names` odstraň. Tento krok se ti bude hodit, když budeš chtít přidávat _ seřazovat další jméno z listu `names` do listu `sorted_names`
+# Vytvoř sequence, do kterého vložíš jeden prvek z sequence `names`. Zároveň ho z listu `names` odstraň. Tento krok se ti bude hodit, když budeš chtít přidávat _ seřazovat další jméno z listu `names` do listu `sorted_names`
 sorted_names = [names.pop(0)]
 print(names)
 print(sorted_names)

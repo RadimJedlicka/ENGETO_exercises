@@ -1,5 +1,5 @@
 # Tvým úkolem bude napsat skript, který příjme od uživatele string s čísly, která jsou oddělena čárkou
-# _ vygeneruje list celých čísel ze zadaného stringu (datový typ integer). Program by měl následně list vypsat.
+# _ vygeneruje sequence celých čísel ze zadaného stringu (datový typ integer). Program by měl následně sequence vypsat.
 #
 # Také budeš muset ošetřit kód tak, aby si uměl poradit se situací, kdy by součástí stringu byly mezery.
 #
