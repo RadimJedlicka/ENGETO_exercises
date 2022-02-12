@@ -1,0 +1,87 @@
+{
+  "Pondělí 14.2.2022": {
+    "polevka_1": {
+      "Dal soup (čočková polévka)": 34
+    },
+    "menu_1": {
+      "Chicken Masala (kuřecí kousky ve středně ostré omáčce)": 129
+    },
+    "menu_2": {
+      "Chicken Mango (kuřecí kostky v mango omáčce)": 129
+    },
+    "menu_3": {
+      "Plain Palak (špenát s indickým kořením)": 129
+    },
+    "menu_4": {
+      "Mix Thali (mix dnešního menu)": 169
+    }
+  },
+  "Úterý 15.2.2022": {
+    "polevka_1": {
+      "Rajma soup (fazolová polévka)": 34
+    },
+    "menu_1": {
+      "Chicken Bhuna (kuřecí kousky v ostré omáčce se zeleninou)": 129
+    },
+    "menu_2": {
+      "Chicken Curry (kuřecí kostky v kari omáčce)": 129
+    },
+    "menu_3": {
+      "Malai Kofta (sladké bramborové nugetky v jemné omáčce)": 129
+    },
+    "menu_4": {
+      "Mix Thali (mix dnešního menu)": 169
+    }
+  },
+  "Středa 16.2.2022": {
+    "polevka_1": {
+      "Chicken soup (kuřecí polévka)": 34
+    },
+    "menu_1": {
+      "Chicken Madras (kuřecí kousky ve středně ostré omáčce)": 129
+    },
+    "menu_2": {
+      "Chicken Butter (kuřecí kostky v omáčce na másle)": 129
+    },
+    "menu_3": {
+      "Royal Mix Veg (směs zeleniny v kari omáčce)": 129
+    },
+    "menu_4": {
+      "Mix Thali (mix dnešního menu)": 169
+    }
+  },
+  "Čtvrtek 17.2.2022": {
+    "polevka_1": {
+      "Tomato soup (rajčatová polévka)": 34
+    },
+    "menu_1": {
+      "Chicken Garlic (kuřecí kousky v česnekové omáčce)": 129
+    },
+    "menu_2": {
+      "Chicken Methi (kuřecí kostky v omáčce s bylinkami)": 129
+    },
+    "menu_3": {
+      "Rajma (červené fazole v nepálivé omáčce)": 129
+    },
+    "menu_4": {
+      "Mix Thali (mix dnešního menu)": 169
+    }
+  },
+  "Pátek 18.2.2022": {
+    "polevka_1": {
+      "Vegetarian soup (zeleninová polévka)": 34
+    },
+    "menu_1": {
+      "Chicken Vindaloo (kuřecí kousky ve velmi ostré omáčce)": 129
+    },
+    "menu_2": {
+      "Chicken Kadai (kuřecí kostky v omáčce s cibulí a paprikou)": 129
+    },
+    "menu_3": {
+      "Shahi Paneer (kousky indického sýru v jemné omáčce)": 129
+    },
+    "menu_4": {
+      "Mix Thali (mix dnešního menu)": 169
+    }
+  }
+}
