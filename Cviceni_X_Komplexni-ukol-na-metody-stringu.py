@@ -56,3 +56,4 @@ if (len(bez_cisel) + 1) % 4 == 0:
     print('Bezva, dalsí zkouska úspesne za tebou. Jen tak dál!')
 else:
     print('Bohuyel, nekde más chybku. Pokud si nevís rady, mrkni se dolů na resení.')
+
